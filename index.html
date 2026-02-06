@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- background -->
+    <img src="bg.jpg" class="bg-image">
+
+    <!-- header -->
+    <div class="header-wrapper">
+        <button class="sidebar-toggle" id="sidebarToggle"><i class="ri-apps-line sidebar-toggle-icon"></i></button>
+        <header class="header">
+            <div class="header-container">
+                <span class="header-logo">Portfolio</span>
+            </div>
+        </header>
+
+        <nav class="sidebar shifted" id="sidebar">
+            <div class="sidebar-cotainer">
+                <div class="sidebar-logo">
+                    <i class="ri-apps-line" id="SidebarBtn"></i>
+                    <span>menu</span>
+                </div>
+                <div class="sidebar-content">
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-dashboard-line"></i>
+                        <span>Home</span>
+                    </a>
+                    <div class="drop show-drop" id="D1">
+                        <button class="sidebar-link drop-button" id="drop_project">
+                            <i class="ri-folder-6-line"></i>
+                            <span>Projects</span>
+                            <i class="ri-arrow-down-s-line drop-arrow"></i>
+                        </button>                 
+                        <ul class="drop-list">
+                            <li class="hidden" id="dropListProject">
+                                <a href="#" class="drop-item">Landing Page </a>
+                                <a href="#" class="drop-item">Business Services</a>
+                                <a href="#" class="drop-item">E-commerce websites</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#" class="sidebar-link">
+                        <i class="ri-phone-line"></i>
+                        <span>Contact</span>
+                    </a>
+                    <div class="drop show-drop" id="D2">
+                        <button class="sidebar-link drop-button" id="drop_setting">
+                            <i class="ri-settings-5-line"></i>
+                            <span>Setting</span>
+                            <i class="ri-arrow-down-s-line drop-arrow"></i>
+                        </button>
+                        <div class="lang-toggle hidden" id="dropListSetting">
+                            <span id="Language">Language</span>
+                            <span>|</span>
+                            <div class="lang-toggle-container">
+                                <span>EN</span>
+                                <div class="lang-toggle-wrapper">
+                                    <div class="lang-toggle-switch">
+                                        <span class="lang-toggle-knob"></span>
+                                    </div>
+                                </div>
+                                <span>FA</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- main content -->
+    <main>
+        <div class="main-content">
+            <img src="prof.jpg" class="prof-pic">
+            <div class="mian-text">
+                <h1>Artorias73</h1> 
+            </div>
+        </div>
+    </main>
+
+    <div class="contact">
+        <div class="contact-container">
+            nothing for now...
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="footer-content">
+            <p class="update">last update: 04/02/2026</p>
+            <!-- <div class="socials">
+                <h3 class="contect">Contact: </h3>
+                <div class="social-links">
+                    <a href="#" class="social-link github"><i class="ri-github-fill"></i></a>
+                    <a href="#" class="social-link linkedin"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#" class="social-link telegram"><i class="ri-telegram-fill"></i></a>
+                </div>
+            </div> -->
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
