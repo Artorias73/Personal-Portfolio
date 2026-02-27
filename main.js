@@ -1,3 +1,5 @@
+// const language = document.getElementById("Language");
+// if (isPersian = true) {language.innerHTML = "زبان ها"} else { language.innerHTML = "Language"};  
 // Drop Down toggle
 const project = document.getElementById('drop_project');
 const DropProject = document.getElementById('D1');
@@ -47,5 +49,3 @@ lang_toggle.addEventListener('click', () => {
 });
 
 
-// const language = document.getElementById("Language");
-// if (isPersian = true) {language.innerHTML = "زبان ها"} else { language.innerHTML = "Language"};  

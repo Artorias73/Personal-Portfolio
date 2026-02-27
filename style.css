@@ -84,7 +84,7 @@ img {
 }
 
 .sidebar-toggle:hover .sidebar-toggle-icon {
-    transform: rotate(-20deg);
+    transform: scale(1.1);
 }
 
 .st-active {
@@ -166,7 +166,7 @@ img {
 }
 
 .sidebar-logo i:hover {
-    transform: rotate(-20deg);
+    transform: scale(1.1);
     transition: 0.25s ease;
 }
 
@@ -400,6 +400,3 @@ footer {
     border-radius: 50%;
 }
 
-.github {
-
-}
